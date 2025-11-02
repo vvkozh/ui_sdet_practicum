@@ -18,4 +18,4 @@ class TestDeleteCustomer:
         actual_customers_name = delete_customer.get_name_customers()
 
         # assert
-        assert avg_name in actual_customers_name, f'Пользователь с именем {avg_name} не удален'
+        assert avg_name not in actual_customers_name, f'Пользователь с именем {avg_name} не удален'
