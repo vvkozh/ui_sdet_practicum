@@ -1,6 +1,7 @@
 import allure
-from pages.base_page import BasePage
+
 from locators.xyz_bank_locator import XYZBankLocator
+from pages.base_page import BasePage
 
 class XYZBankPage(BasePage):
     @allure.step('Открыть вкладку Add customer')

@@ -11,7 +11,3 @@ def find_customer_avg_name(customers_name):
     average_name_length = sum(names_lengths) / len(names_lengths)
     name_for_delete = min(customers_name, key=lambda name: abs(len(name) - average_name_length))
     return name_for_delete
-
-def sorting_data(data):
-    sorted_data = sorted(data, reverse=True)
-    return sorted_data

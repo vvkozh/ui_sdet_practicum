@@ -1,7 +1,8 @@
 import pytest
-from data.urls import Urls
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+from data.urls import Urls
 
 @pytest.fixture
 def driver():
