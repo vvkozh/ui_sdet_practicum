@@ -1,4 +1,5 @@
 import allure
+
 from pages.xyz_bank_page import XYZBankPage
 
 @allure.epic('Операции с пользователями')
